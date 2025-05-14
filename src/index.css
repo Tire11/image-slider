@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@utility centerChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@utility activeDesc {
+  opacity: 1;
+  visibility: visible;
+}
+
+@utility inactiveDesc {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@utility activeImg {
+  opacity: 1;
+  z-index: 1;
+}
+
+@utility inactiveImg {
+  opacity: 0.5;
+  z-index: -1;
+}
